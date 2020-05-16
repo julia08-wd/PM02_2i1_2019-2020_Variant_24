@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ParentChild
 {
-    class parent
+    class Рarent
     {
-        public int x, y;
+        public int Х, Y;
         public parent()
         {             
             x = 10;             
@@ -16,7 +16,7 @@ namespace ParentChild
         }
     }
     class Child : parent {
-        public int z;         
+        public int Z;         
         public Child()
         {             
             y = 30;             
